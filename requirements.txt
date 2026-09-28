@@ -1,0 +1,34 @@
+# Environmental Risk Prediction & Mapping
+
+A full project for air pollution prediction, water pollution prediction, and flood risk prediction using place-based mapping.
+
+## Features
+- Input coordinates for a place
+- Estimate air pollution risk
+- Estimate water pollution risk
+- Estimate flood risk
+- Interactive map-based visualization
+- Ready-to-run Streamlit application
+
+## Installation
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Run the app
+
+```bash
+streamlit run app.py
+```
+
+## Model details
+
+The project trains a Random Forest classifier for:
+- air_pollution_risk
+- water_pollution_risk
+- flood_risk
+
+This offers fast training, robust results, and interpretable feature importance.
